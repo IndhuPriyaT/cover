@@ -49,8 +49,8 @@ Publish the website in the LocalHost.
             .topic{
                 position: relative;
                 letter-spacing: 4;
-                left:30px ;
-                bottom: 35px;
+                left:80px ;
+                bottom: 500px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-weight: 2000;
                 font-size:50px ;
@@ -90,12 +90,12 @@ Publish the website in the LocalHost.
            }
            .picture{
             position: absolute;
-            top:25%;
-            left: 100px;
-            bottom: 110%;
+            top: 350px;;
+            left: 250px;
+            bottom:0px;
             transform: translateY(-50%);
-            width:400px;
-            height: 400px;
+            width:250px;
+            height: 250px;
             
            }
 
@@ -112,7 +112,17 @@ Publish the website in the LocalHost.
 
            }
 
-        
+            .sub{
+                position: relative;
+                letter-spacing: 4;
+                top: auto;
+                left:80px;
+               bottom: 65%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 200;
+                font-size:30px ;
+                color: beige;
+            }
         
         </style>
        
@@ -122,6 +132,7 @@ Publish the website in the LocalHost.
         <div class="container">
          <img src="cover3.png" />
         <h1 class="topic">AUTOMATION AND AI</h1>
+        <h3 class="sub">Revolutionizing the Future of Work</h3>
         
         <h3 class="name">Indhu Priya.T</h3>
        <img src="profile.jpg" class="image"/>
@@ -134,7 +145,7 @@ Publish the website in the LocalHost.
 
 
 ## OUTPUT:
-![alt text](admin/bookapp/static/op.png)
+![alt text](<admin/bookapp/static/Screenshot (38).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
